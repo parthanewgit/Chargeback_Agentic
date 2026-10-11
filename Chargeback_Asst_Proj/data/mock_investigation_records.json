@@ -1,0 +1,129 @@
+{
+    "customers":  {
+                      "CUST-001":  {
+                                       "past_disputes":  1,
+                                       "chargeback_history":  [
+                                                                  "prior issue"
+                                                              ],
+                                       "order_count":  6,
+                                       "customer_tenure_days":  430,
+                                       "cancellation_status":  "not_cancelled",
+                                       "country":  "India",
+                                       "city":  "Bengaluru",
+                                       "state":  "Karnataka",
+                                       "postal_code":  "560001",
+                                       "locale":  "en-IN"
+                                   },
+                      "CUST-006":  {
+                                       "past_disputes":  0,
+                                       "chargeback_history":  [
+
+                                                              ],
+                                       "order_count":  4,
+                                       "customer_tenure_days":  800,
+                                       "cancellation_status":  "effective_before_charge",
+                                       "cancellation_timestamp":  "2026-09-01T00:00:00+05:30",
+                                       "country":  "India",
+                                       "city":  "Mumbai",
+                                       "state":  "Maharashtra",
+                                       "postal_code":  "400001",
+                                       "locale":  "en-IN"
+                                   },
+                      "CUST-012":  {
+                                       "past_disputes":  0,
+                                       "chargeback_history":  [
+
+                                                              ],
+                                       "order_count":  7,
+                                       "customer_tenure_days":  920,
+                                       "cancellation_status":  "effective_before_charge",
+                                       "cancellation_timestamp":  "2026-09-01T00:00:00+05:30",
+                                       "country":  "India",
+                                       "city":  "Pune",
+                                       "state":  "Maharashtra",
+                                       "postal_code":  "411001",
+                                       "locale":  "en-IN"
+                                   }
+                  },
+    "prior_disputes":  {
+                           "MERCH-001":  {
+                                             "dispute_count":  2,
+                                             "prior_outcomes":  [
+                                                                    "CONTEST",
+                                                                    "ACCEPT"
+                                                                ],
+                                             "recent_pattern":  "synthetic Indian domestic delivery cases",
+                                             "country":  "India",
+                                             "city":  "Bengaluru",
+                                             "state":  "Karnataka",
+                                             "currency":  "INR"
+                                         }
+                       },
+    "merchants":  {
+                      "MERCH-005":  {
+                                        "merchant_name":  "Namma Cart Synthetic Merchant 1",
+                                        "merchant_tier":  "standard",
+                                        "returns_policy":  "30-day return window",
+                                        "shipping_window_days":  7,
+                                        "description_matches":  null,
+                                        "country":  "India",
+                                        "city":  "Bengaluru",
+                                        "state":  "Karnataka",
+                                        "postal_code":  "560001",
+                                        "currency":  "INR",
+                                        "support_phone":  "+91-80000-00001"
+                                    },
+                      "MERCH-011":  {
+                                        "merchant_name":  "Namma Cart Synthetic Merchant 2",
+                                        "merchant_tier":  "standard",
+                                        "returns_policy":  "30-day return window",
+                                        "shipping_window_days":  7,
+                                        "description_matches":  true,
+                                        "country":  "India",
+                                        "city":  "Mumbai",
+                                        "state":  "Maharashtra",
+                                        "postal_code":  "400001",
+                                        "currency":  "INR",
+                                        "support_phone":  "+91-80000-00001"
+                                    },
+                      "MERCH-017":  {
+                                        "merchant_name":  "Namma Cart Synthetic Merchant 3",
+                                        "merchant_tier":  "standard",
+                                        "returns_policy":  "30-day return window",
+                                        "shipping_window_days":  7,
+                                        "description_matches":  null,
+                                        "country":  "India",
+                                        "city":  "Pune",
+                                        "state":  "Maharashtra",
+                                        "postal_code":  "411001",
+                                        "currency":  "INR",
+                                        "support_phone":  "+91-80000-00001"
+                                    },
+                      "MERCH-023":  {
+                                        "merchant_name":  "Namma Cart Synthetic Merchant 4",
+                                        "merchant_tier":  "standard",
+                                        "returns_policy":  "30-day return window",
+                                        "shipping_window_days":  7,
+                                        "description_matches":  null,
+                                        "country":  "India",
+                                        "city":  "Hyderabad",
+                                        "state":  "Telangana",
+                                        "postal_code":  "500001",
+                                        "currency":  "INR",
+                                        "support_phone":  "+91-80000-00001"
+                                    },
+                      "MERCH-029":  {
+                                        "merchant_name":  "Namma Cart Synthetic Merchant 5",
+                                        "merchant_tier":  "standard",
+                                        "returns_policy":  "30-day return window",
+                                        "shipping_window_days":  7,
+                                        "description_matches":  true,
+                                        "country":  "India",
+                                        "city":  "Jaipur",
+                                        "state":  "Rajasthan",
+                                        "postal_code":  "302001",
+                                        "currency":  "INR",
+                                        "support_phone":  "+91-80000-00001"
+                                    }
+                  }
+}

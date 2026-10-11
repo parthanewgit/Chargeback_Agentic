@@ -1,0 +1,515 @@
+[
+    {
+        "case_id":  "CASE-001",
+        "dispute_reason_code":  "item_not_received",
+        "transaction_id":  "TXN-1001",
+        "amount":  299.99,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-001",
+        "customer_id":  "CUST-001",
+        "response_deadline":  "2030-01-31T05:30:00+05:30",
+        "expected_decision":  "CONTEST",
+        "expected_reason_code":  "item_not_received",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "transaction_record",
+                                        "delivery_status"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-002",
+        "dispute_reason_code":  "fraud_card_not_present",
+        "transaction_id":  "TXN-1002",
+        "amount":  499.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-002",
+        "customer_id":  "CUST-002",
+        "response_deadline":  "2025-10-01T05:30:00+05:30",
+        "expected_decision":  "ACCEPT",
+        "expected_reason_code":  "fraud_card_not_present",
+        "expected_deadline_status":  "EXPIRED",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "authorization_result"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-003",
+        "dispute_reason_code":  "duplicate_processing",
+        "transaction_id":  "TXN-1003",
+        "amount":  149.5,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-003",
+        "customer_id":  "CUST-003",
+        "response_deadline":  "2030-02-15T05:30:00+05:30",
+        "expected_decision":  "ACCEPT",
+        "expected_reason_code":  "duplicate_processing",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "transaction_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-004",
+        "dispute_reason_code":  "credit_not_processed",
+        "transaction_id":  "TXN-1004",
+        "amount":  89.99,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-004",
+        "customer_id":  "CUST-004",
+        "response_deadline":  "2030-03-10T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "credit_not_processed",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "refund_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-005",
+        "dispute_reason_code":  "not_as_described",
+        "transaction_id":  "TXN-1005",
+        "amount":  220.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-005",
+        "customer_id":  "CUST-005",
+        "response_deadline":  "2030-05-20T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "not_as_described",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "merchant_description"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-006",
+        "dispute_reason_code":  "cancelled_recurring",
+        "transaction_id":  "TXN-1006",
+        "amount":  39.99,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-006",
+        "customer_id":  "CUST-006",
+        "response_deadline":  "2030-04-12T05:30:00+05:30",
+        "expected_decision":  "ACCEPT",
+        "expected_reason_code":  "cancelled_recurring",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "cancellation_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-007",
+        "dispute_reason_code":  "item_not_received",
+        "transaction_id":  "TXN-1007",
+        "amount":  1250.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-007",
+        "customer_id":  "CUST-007",
+        "response_deadline":  "2030-06-30T05:30:00+05:30",
+        "expected_decision":  "CONTEST",
+        "expected_reason_code":  "item_not_received",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  true,
+        "required_citation_types":  [
+                                        "transaction_record",
+                                        "delivery_status"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-008",
+        "dispute_reason_code":  "fraud_card_not_present",
+        "transaction_id":  "TXN-1008",
+        "amount":  420.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-008",
+        "customer_id":  "CUST-008",
+        "response_deadline":  "2030-02-05T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "fraud_card_not_present",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "authorization_result"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-009",
+        "dispute_reason_code":  "duplicate_processing",
+        "transaction_id":  "TXN-1009",
+        "amount":  80.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-009",
+        "customer_id":  "CUST-009",
+        "response_deadline":  "2030-07-11T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "duplicate_processing",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "transaction_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-010",
+        "dispute_reason_code":  "credit_not_processed",
+        "transaction_id":  "TXN-1010",
+        "amount":  50.5,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-010",
+        "customer_id":  "CUST-010",
+        "response_deadline":  "2030-04-02T05:30:00+05:30",
+        "expected_decision":  "CONTEST",
+        "expected_reason_code":  "credit_not_processed",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "refund_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-011",
+        "dispute_reason_code":  "not_as_described",
+        "transaction_id":  "TXN-1011",
+        "amount":  180.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-011",
+        "customer_id":  "CUST-011",
+        "response_deadline":  "2030-03-15T05:30:00+05:30",
+        "expected_decision":  "CONTEST",
+        "expected_reason_code":  "not_as_described",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "merchant_description"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-012",
+        "dispute_reason_code":  "cancelled_recurring",
+        "transaction_id":  "TXN-1012",
+        "amount":  25.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-012",
+        "customer_id":  "CUST-012",
+        "response_deadline":  "2030-01-20T05:30:00+05:30",
+        "expected_decision":  "ACCEPT",
+        "expected_reason_code":  "cancelled_recurring",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "cancellation_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-013",
+        "dispute_reason_code":  "item_not_received",
+        "transaction_id":  "TXN-1013",
+        "amount":  430.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-013",
+        "customer_id":  "CUST-013",
+        "response_deadline":  "2025-09-15T05:30:00+05:30",
+        "expected_decision":  "ACCEPT",
+        "expected_reason_code":  "item_not_received",
+        "expected_deadline_status":  "EXPIRED",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "delivery_status"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-014",
+        "dispute_reason_code":  "fraud_card_not_present",
+        "transaction_id":  "TXN-1014",
+        "amount":  320.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-014",
+        "customer_id":  "CUST-014",
+        "response_deadline":  "2030-09-17T05:30:00+05:30",
+        "expected_decision":  "CONTEST",
+        "expected_reason_code":  "fraud_card_not_present",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "authorization_result"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-015",
+        "dispute_reason_code":  "duplicate_processing",
+        "transaction_id":  "TXN-1015",
+        "amount":  95.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-015",
+        "customer_id":  "CUST-015",
+        "response_deadline":  "2030-11-20T05:30:00+05:30",
+        "expected_decision":  "CONTEST",
+        "expected_reason_code":  "duplicate_processing",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "transaction_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-016",
+        "dispute_reason_code":  "credit_not_processed",
+        "transaction_id":  "TXN-1016",
+        "amount":  75.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-016",
+        "customer_id":  "CUST-016",
+        "response_deadline":  "2030-09-22T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "credit_not_processed",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "refund_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-017",
+        "dispute_reason_code":  "not_as_described",
+        "transaction_id":  "TXN-1017",
+        "amount":  1610.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-017",
+        "customer_id":  "CUST-017",
+        "response_deadline":  "2030-08-10T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "not_as_described",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  true,
+        "required_citation_types":  [
+                                        "merchant_description"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-018",
+        "dispute_reason_code":  "cancelled_recurring",
+        "transaction_id":  "TXN-1018",
+        "amount":  45.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-018",
+        "customer_id":  "CUST-018",
+        "response_deadline":  "2030-07-18T05:30:00+05:30",
+        "expected_decision":  "CONTEST",
+        "expected_reason_code":  "cancelled_recurring",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "cancellation_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-019",
+        "dispute_reason_code":  "item_not_received",
+        "transaction_id":  "TXN-1019",
+        "amount":  560.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-019",
+        "customer_id":  "CUST-019",
+        "response_deadline":  "2030-10-11T05:30:00+05:30",
+        "expected_decision":  "CONTEST",
+        "expected_reason_code":  "item_not_received",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "transaction_record",
+                                        "delivery_status"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-020",
+        "dispute_reason_code":  "fraud_card_not_present",
+        "transaction_id":  "TXN-1020",
+        "amount":  230.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-020",
+        "customer_id":  "CUST-020",
+        "response_deadline":  "2030-12-12T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "fraud_card_not_present",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "authorization_result"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-021",
+        "dispute_reason_code":  "duplicate_processing",
+        "transaction_id":  "TXN-1021",
+        "amount":  110.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-021",
+        "customer_id":  "CUST-021",
+        "response_deadline":  "2030-06-15T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "duplicate_processing",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "transaction_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-022",
+        "dispute_reason_code":  "credit_not_processed",
+        "transaction_id":  "TXN-1022",
+        "amount":  130.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-022",
+        "customer_id":  "CUST-022",
+        "response_deadline":  "2030-11-05T05:30:00+05:30",
+        "expected_decision":  "ACCEPT",
+        "expected_reason_code":  "credit_not_processed",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "refund_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-023",
+        "dispute_reason_code":  "not_as_described",
+        "transaction_id":  "TXN-1023",
+        "amount":  88.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-023",
+        "customer_id":  "CUST-023",
+        "response_deadline":  "2030-02-28T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "not_as_described",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "merchant_description"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-024",
+        "dispute_reason_code":  "cancelled_recurring",
+        "transaction_id":  "TXN-1024",
+        "amount":  49.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-024",
+        "customer_id":  "CUST-024",
+        "response_deadline":  "2030-03-01T05:30:00+05:30",
+        "expected_decision":  "CONTEST",
+        "expected_reason_code":  "cancelled_recurring",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "cancellation_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-025",
+        "dispute_reason_code":  "item_not_received",
+        "transaction_id":  "TXN-1025",
+        "amount":  180.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-025",
+        "customer_id":  "CUST-025",
+        "response_deadline":  "2025-08-05T05:30:00+05:30",
+        "expected_decision":  "ACCEPT",
+        "expected_reason_code":  "item_not_received",
+        "expected_deadline_status":  "EXPIRED",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "delivery_status"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-026",
+        "dispute_reason_code":  "fraud_card_not_present",
+        "transaction_id":  "TXN-1026",
+        "amount":  500.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-026",
+        "customer_id":  "CUST-026",
+        "response_deadline":  "2030-10-20T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "fraud_card_not_present",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "authorization_result"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-027",
+        "dispute_reason_code":  "duplicate_processing",
+        "transaction_id":  "TXN-1027",
+        "amount":  230.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-027",
+        "customer_id":  "CUST-027",
+        "response_deadline":  "2030-02-10T05:30:00+05:30",
+        "expected_decision":  "CONTEST",
+        "expected_reason_code":  "duplicate_processing",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "transaction_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-028",
+        "dispute_reason_code":  "credit_not_processed",
+        "transaction_id":  "TXN-1028",
+        "amount":  121.5,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-028",
+        "customer_id":  "CUST-028",
+        "response_deadline":  "2030-12-03T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "credit_not_processed",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "refund_record"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-029",
+        "dispute_reason_code":  "not_as_described",
+        "transaction_id":  "TXN-1029",
+        "amount":  1950.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-029",
+        "customer_id":  "CUST-029",
+        "response_deadline":  "2030-09-09T05:30:00+05:30",
+        "expected_decision":  "CONTEST",
+        "expected_reason_code":  "not_as_described",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  true,
+        "required_citation_types":  [
+                                        "merchant_description"
+                                    ]
+    },
+    {
+        "case_id":  "CASE-030",
+        "dispute_reason_code":  "cancelled_recurring",
+        "transaction_id":  "TXN-1030",
+        "amount":  60.0,
+        "currency":  "INR",
+        "merchant_id":  "MERCH-030",
+        "customer_id":  "CUST-030",
+        "response_deadline":  "2030-08-07T05:30:00+05:30",
+        "expected_decision":  "REQUEST_MORE_INFO",
+        "expected_reason_code":  "cancelled_recurring",
+        "expected_deadline_status":  "VALID",
+        "expected_escalation":  false,
+        "required_citation_types":  [
+                                        "cancellation_record"
+                                    ]
+    }
+]

@@ -1,0 +1,632 @@
+{
+    "TXN-1001":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1001",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Bengaluru",
+                                       "merchant_state":  "Karnataka"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "delivery_status",
+                         "value":  {
+                                       "delivery_status":  "delivered",
+                                       "address_match":  true,
+                                       "tracking_number":  "DLV-IN-00000001",
+                                       "carrier":  "Delhivery",
+                                       "delivery_city":  "Bengaluru",
+                                       "delivery_state":  "Karnataka",
+                                       "postal_code":  "560001",
+                                       "country":  "India",
+                                       "delivery_timestamp":  "2026-09-21T14:00:00+05:30"
+                                   }
+                     }
+                 ],
+    "TXN-1002":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1002",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Mumbai",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "authorization_result",
+                         "value":  {
+                                       "authorization_status":  "approved",
+                                       "three_ds":  true,
+                                       "avs_result":  "match",
+                                       "cvv_result":  "match"
+                                   }
+                     }
+                 ],
+    "TXN-1003":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1003",
+                                       "duplicate_confirmed":  true,
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Pune",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     }
+                 ],
+    "TXN-1004":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1004",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Hyderabad",
+                                       "merchant_state":  "Telangana"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "refund_record",
+                         "value":  {
+                                       "refund_status":  "pending"
+                                   }
+                     }
+                 ],
+    "TXN-1005":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1005",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Jaipur",
+                                       "merchant_state":  "Rajasthan"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "merchant_description",
+                         "value":  {
+                                       "description_matches":  null
+                                   }
+                     }
+                 ],
+    "TXN-1006":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1006",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Bengaluru",
+                                       "merchant_state":  "Karnataka"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "cancellation_record",
+                         "value":  {
+                                       "cancellation_status":  "effective_before_charge"
+                                   }
+                     }
+                 ],
+    "TXN-1007":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1007",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Mumbai",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "delivery_status",
+                         "value":  {
+                                       "delivery_status":  "delivered",
+                                       "address_match":  true,
+                                       "tracking_number":  "DLV-IN-00000007",
+                                       "carrier":  "Blue Dart",
+                                       "delivery_city":  "Mumbai",
+                                       "delivery_state":  "Maharashtra",
+                                       "postal_code":  "400001",
+                                       "country":  "India",
+                                       "delivery_timestamp":  "2026-09-21T14:00:00+05:30"
+                                   }
+                     }
+                 ],
+    "TXN-1008":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1008",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Pune",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "authorization_result",
+                         "value":  {
+                                       "authorization_status":  "approved",
+                                       "three_ds":  false,
+                                       "avs_result":  "match",
+                                       "cvv_result":  "match"
+                                   }
+                     }
+                 ],
+    "TXN-1009":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1009",
+                                       "duplicate_confirmed":  null,
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Hyderabad",
+                                       "merchant_state":  "Telangana"
+                                   }
+                     }
+                 ],
+    "TXN-1010":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1010",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Jaipur",
+                                       "merchant_state":  "Rajasthan"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "refund_record",
+                         "value":  {
+                                       "refund_status":  "processed"
+                                   }
+                     }
+                 ],
+    "TXN-1011":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1011",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Bengaluru",
+                                       "merchant_state":  "Karnataka"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "merchant_description",
+                         "value":  {
+                                       "description_matches":  true
+                                   }
+                     }
+                 ],
+    "TXN-1012":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1012",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Mumbai",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "cancellation_record",
+                         "value":  {
+                                       "cancellation_status":  "effective_before_charge"
+                                   }
+                     }
+                 ],
+    "TXN-1013":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1013",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Pune",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "delivery_status",
+                         "value":  {
+                                       "delivery_status":  "delivered",
+                                       "address_match":  true,
+                                       "tracking_number":  "DLV-IN-00000013",
+                                       "carrier":  "India Post",
+                                       "delivery_city":  "Pune",
+                                       "delivery_state":  "Maharashtra",
+                                       "postal_code":  "411001",
+                                       "country":  "India",
+                                       "delivery_timestamp":  "2026-09-21T14:00:00+05:30"
+                                   }
+                     }
+                 ],
+    "TXN-1014":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1014",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Hyderabad",
+                                       "merchant_state":  "Telangana"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "authorization_result",
+                         "value":  {
+                                       "authorization_status":  "approved",
+                                       "three_ds":  true,
+                                       "avs_result":  "match",
+                                       "cvv_result":  "match"
+                                   }
+                     }
+                 ],
+    "TXN-1015":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1015",
+                                       "duplicate_confirmed":  false,
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Jaipur",
+                                       "merchant_state":  "Rajasthan"
+                                   }
+                     }
+                 ],
+    "TXN-1016":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1016",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Bengaluru",
+                                       "merchant_state":  "Karnataka"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "refund_record",
+                         "value":  {
+                                       "refund_status":  "pending"
+                                   }
+                     }
+                 ],
+    "TXN-1017":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1017",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Mumbai",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "merchant_description",
+                         "value":  {
+                                       "description_matches":  null
+                                   }
+                     }
+                 ],
+    "TXN-1018":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1018",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Pune",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "cancellation_record",
+                         "value":  {
+                                       "cancellation_status":  "cancelled_after_transaction"
+                                   }
+                     }
+                 ],
+    "TXN-1019":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1019",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Hyderabad",
+                                       "merchant_state":  "Telangana"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "delivery_status",
+                         "value":  {
+                                       "delivery_status":  "delivered",
+                                       "address_match":  true,
+                                       "tracking_number":  "DLV-IN-00000019",
+                                       "carrier":  "Ecom Express",
+                                       "delivery_city":  "Hyderabad",
+                                       "delivery_state":  "Telangana",
+                                       "postal_code":  "500001",
+                                       "country":  "India",
+                                       "delivery_timestamp":  "2026-09-21T14:00:00+05:30"
+                                   }
+                     }
+                 ],
+    "TXN-1020":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1020",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Jaipur",
+                                       "merchant_state":  "Rajasthan"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "authorization_result",
+                         "value":  {
+                                       "authorization_status":  "approved",
+                                       "three_ds":  false,
+                                       "avs_result":  "match",
+                                       "cvv_result":  "match"
+                                   }
+                     }
+                 ],
+    "TXN-1021":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1021",
+                                       "duplicate_confirmed":  null,
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Bengaluru",
+                                       "merchant_state":  "Karnataka"
+                                   }
+                     }
+                 ],
+    "TXN-1022":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1022",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Mumbai",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "refund_record",
+                         "value":  {
+                                       "refund_status":  "not_processed"
+                                   }
+                     }
+                 ],
+    "TXN-1023":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1023",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Pune",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "merchant_description",
+                         "value":  {
+                                       "description_matches":  null
+                                   }
+                     }
+                 ],
+    "TXN-1024":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1024",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Hyderabad",
+                                       "merchant_state":  "Telangana"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "cancellation_record",
+                         "value":  {
+                                       "cancellation_status":  "cancelled_after_transaction"
+                                   }
+                     }
+                 ],
+    "TXN-1025":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1025",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Jaipur",
+                                       "merchant_state":  "Rajasthan"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "delivery_status",
+                         "value":  {
+                                       "delivery_status":  "delivered",
+                                       "address_match":  true,
+                                       "tracking_number":  "DLV-IN-00000025",
+                                       "carrier":  "DTDC",
+                                       "delivery_city":  "Jaipur",
+                                       "delivery_state":  "Rajasthan",
+                                       "postal_code":  "302001",
+                                       "country":  "India",
+                                       "delivery_timestamp":  "2026-09-21T14:00:00+05:30"
+                                   }
+                     }
+                 ],
+    "TXN-1026":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1026",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Bengaluru",
+                                       "merchant_state":  "Karnataka"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "authorization_result",
+                         "value":  {
+                                       "authorization_status":  "unknown",
+                                       "three_ds":  false,
+                                       "avs_result":  "unavailable",
+                                       "cvv_result":  "unavailable"
+                                   }
+                     }
+                 ],
+    "TXN-1027":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1027",
+                                       "duplicate_confirmed":  false,
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Mumbai",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     }
+                 ],
+    "TXN-1028":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1028",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Pune",
+                                       "merchant_state":  "Maharashtra"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "refund_record",
+                         "value":  {
+                                       "refund_status":  "pending"
+                                   }
+                     }
+                 ],
+    "TXN-1029":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1029",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Hyderabad",
+                                       "merchant_state":  "Telangana"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "merchant_description",
+                         "value":  {
+                                       "description_matches":  true
+                                   }
+                     }
+                 ],
+    "TXN-1030":  [
+                     {
+                         "evidence_type":  "transaction_record",
+                         "value":  {
+                                       "transaction_id":  "TXN-1030",
+                                       "currency":  "INR",
+                                       "country":  "India",
+                                       "country_code":  "IN",
+                                       "payment_network":  "RuPay",
+                                       "merchant_city":  "Jaipur",
+                                       "merchant_state":  "Rajasthan"
+                                   }
+                     },
+                     {
+                         "evidence_type":  "cancellation_record",
+                         "value":  {
+                                       "cancellation_status":  "unknown"
+                                   }
+                     }
+                 ]
+}

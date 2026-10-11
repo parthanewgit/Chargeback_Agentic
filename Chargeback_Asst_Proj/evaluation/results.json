@@ -1,0 +1,596 @@
+{
+  "summary": {
+    "cases": 30,
+    "decision_accuracy": 1.0,
+    "correct_decisions": 30,
+    "reason_code_accuracy": 1.0,
+    "deadline_correctness": 1.0,
+    "escalation_accuracy": 1.0,
+    "escalation_precision": 1.0,
+    "escalation_recall": 1.0,
+    "citation_validity_rate": 1.0,
+    "citation_relevance_precision": 0.6,
+    "required_citation_type_coverage": 1.0,
+    "mean_latency_ms": 27.952236670535058,
+    "median_latency_ms": 22.39945001201704,
+    "p95_latency_ms": 43.205900001339614,
+    "min_latency_ms": 16.659700020682067,
+    "max_latency_ms": 171.84599995380268,
+    "tool_calls": 0,
+    "average_tool_calls_per_case": 0.0,
+    "model_calls": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "estimated_local_model_cost_usd": 0.0,
+    "llm_enabled": false
+  },
+  "results": [
+    {
+      "case_id": "CASE-001",
+      "expected_decision": "CONTEST",
+      "actual_decision": "CONTEST",
+      "expected_reason_code": "item_not_received",
+      "actual_reason_code": "item_not_received",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 171.84599995380268
+    },
+    {
+      "case_id": "CASE-002",
+      "expected_decision": "ACCEPT",
+      "actual_decision": "ACCEPT",
+      "expected_reason_code": "fraud_card_not_present",
+      "actual_reason_code": "fraud_card_not_present",
+      "expected_deadline_status": "EXPIRED",
+      "actual_deadline_status": "EXPIRED",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 16.659700020682067
+    },
+    {
+      "case_id": "CASE-003",
+      "expected_decision": "ACCEPT",
+      "actual_decision": "ACCEPT",
+      "expected_reason_code": "duplicate_processing",
+      "actual_reason_code": "duplicate_processing",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001"
+      ],
+      "latency_ms": 18.782900006044656
+    },
+    {
+      "case_id": "CASE-004",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "credit_not_processed",
+      "actual_reason_code": "credit_not_processed",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 20.176000020001084
+    },
+    {
+      "case_id": "CASE-005",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "not_as_described",
+      "actual_reason_code": "not_as_described",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 23.276499996427447
+    },
+    {
+      "case_id": "CASE-006",
+      "expected_decision": "ACCEPT",
+      "actual_decision": "ACCEPT",
+      "expected_reason_code": "cancelled_recurring",
+      "actual_reason_code": "cancelled_recurring",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 19.75259999744594
+    },
+    {
+      "case_id": "CASE-007",
+      "expected_decision": "CONTEST",
+      "actual_decision": "CONTEST",
+      "expected_reason_code": "item_not_received",
+      "actual_reason_code": "item_not_received",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": true,
+      "actual_escalation": true,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 18.55860004434362
+    },
+    {
+      "case_id": "CASE-008",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "fraud_card_not_present",
+      "actual_reason_code": "fraud_card_not_present",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 16.731999989133328
+    },
+    {
+      "case_id": "CASE-009",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "duplicate_processing",
+      "actual_reason_code": "duplicate_processing",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001"
+      ],
+      "latency_ms": 43.205900001339614
+    },
+    {
+      "case_id": "CASE-010",
+      "expected_decision": "CONTEST",
+      "actual_decision": "CONTEST",
+      "expected_reason_code": "credit_not_processed",
+      "actual_reason_code": "credit_not_processed",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 23.099999991245568
+    },
+    {
+      "case_id": "CASE-011",
+      "expected_decision": "CONTEST",
+      "actual_decision": "CONTEST",
+      "expected_reason_code": "not_as_described",
+      "actual_reason_code": "not_as_described",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 23.05049996357411
+    },
+    {
+      "case_id": "CASE-012",
+      "expected_decision": "ACCEPT",
+      "actual_decision": "ACCEPT",
+      "expected_reason_code": "cancelled_recurring",
+      "actual_reason_code": "cancelled_recurring",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 20.6330000073649
+    },
+    {
+      "case_id": "CASE-013",
+      "expected_decision": "ACCEPT",
+      "actual_decision": "ACCEPT",
+      "expected_reason_code": "item_not_received",
+      "actual_reason_code": "item_not_received",
+      "expected_deadline_status": "EXPIRED",
+      "actual_deadline_status": "EXPIRED",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 18.528599990531802
+    },
+    {
+      "case_id": "CASE-014",
+      "expected_decision": "CONTEST",
+      "actual_decision": "CONTEST",
+      "expected_reason_code": "fraud_card_not_present",
+      "actual_reason_code": "fraud_card_not_present",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 24.001100042369217
+    },
+    {
+      "case_id": "CASE-015",
+      "expected_decision": "CONTEST",
+      "actual_decision": "CONTEST",
+      "expected_reason_code": "duplicate_processing",
+      "actual_reason_code": "duplicate_processing",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001"
+      ],
+      "latency_ms": 20.209500042255968
+    },
+    {
+      "case_id": "CASE-016",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "credit_not_processed",
+      "actual_reason_code": "credit_not_processed",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 22.934300010092556
+    },
+    {
+      "case_id": "CASE-017",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "not_as_described",
+      "actual_reason_code": "not_as_described",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": true,
+      "actual_escalation": true,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 22.994200000539422
+    },
+    {
+      "case_id": "CASE-018",
+      "expected_decision": "CONTEST",
+      "actual_decision": "CONTEST",
+      "expected_reason_code": "cancelled_recurring",
+      "actual_reason_code": "cancelled_recurring",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 23.993399983737618
+    },
+    {
+      "case_id": "CASE-019",
+      "expected_decision": "CONTEST",
+      "actual_decision": "CONTEST",
+      "expected_reason_code": "item_not_received",
+      "actual_reason_code": "item_not_received",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 21.620200015604496
+    },
+    {
+      "case_id": "CASE-020",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "fraud_card_not_present",
+      "actual_reason_code": "fraud_card_not_present",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 23.38389999931678
+    },
+    {
+      "case_id": "CASE-021",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "duplicate_processing",
+      "actual_reason_code": "duplicate_processing",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001"
+      ],
+      "latency_ms": 21.864600013941526
+    },
+    {
+      "case_id": "CASE-022",
+      "expected_decision": "ACCEPT",
+      "actual_decision": "ACCEPT",
+      "expected_reason_code": "credit_not_processed",
+      "actual_reason_code": "credit_not_processed",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 20.44459996977821
+    },
+    {
+      "case_id": "CASE-023",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "not_as_described",
+      "actual_reason_code": "not_as_described",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 23.309500014875084
+    },
+    {
+      "case_id": "CASE-024",
+      "expected_decision": "CONTEST",
+      "actual_decision": "CONTEST",
+      "expected_reason_code": "cancelled_recurring",
+      "actual_reason_code": "cancelled_recurring",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 32.97000000020489
+    },
+    {
+      "case_id": "CASE-025",
+      "expected_decision": "ACCEPT",
+      "actual_decision": "ACCEPT",
+      "expected_reason_code": "item_not_received",
+      "actual_reason_code": "item_not_received",
+      "expected_deadline_status": "EXPIRED",
+      "actual_deadline_status": "EXPIRED",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 19.3794000078924
+    },
+    {
+      "case_id": "CASE-026",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "fraud_card_not_present",
+      "actual_reason_code": "fraud_card_not_present",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 30.065300001297146
+    },
+    {
+      "case_id": "CASE-027",
+      "expected_decision": "CONTEST",
+      "actual_decision": "CONTEST",
+      "expected_reason_code": "duplicate_processing",
+      "actual_reason_code": "duplicate_processing",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001"
+      ],
+      "latency_ms": 24.351100029889494
+    },
+    {
+      "case_id": "CASE-028",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "credit_not_processed",
+      "actual_reason_code": "credit_not_processed",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 21.088299981784075
+    },
+    {
+      "case_id": "CASE-029",
+      "expected_decision": "CONTEST",
+      "actual_decision": "CONTEST",
+      "expected_reason_code": "not_as_described",
+      "actual_reason_code": "not_as_described",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": true,
+      "actual_escalation": true,
+      "confidence": 0.85,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 21.61950001027435
+    },
+    {
+      "case_id": "CASE-030",
+      "expected_decision": "REQUEST_MORE_INFO",
+      "actual_decision": "REQUEST_MORE_INFO",
+      "expected_reason_code": "cancelled_recurring",
+      "actual_reason_code": "cancelled_recurring",
+      "expected_deadline_status": "VALID",
+      "actual_deadline_status": "VALID",
+      "expected_escalation": false,
+      "actual_escalation": false,
+      "confidence": 0.79,
+      "missing_evidence": [],
+      "tool_calls": [],
+      "citations": [
+        "EVAL-001",
+        "EVAL-002"
+      ],
+      "latency_ms": 30.035900010261685
+    }
+  ],
+  "error_analysis": []
+}
